@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    
+    <H1 align="center"><mark>Registration Form</mark></H1>
+    <table align="center">
+        <tr>
+            <form>
+                <tr>
+                    <td><label> Name :<sup>*</sup> </label></td>
+                    <td><input type="text" placeholder="Enter Your Name"  required><sub>(max 20 char a-z and A-Z)</sub></td>
+                </tr>
+                <tr>
+                    <td><label>Middle Name :</label></td>
+                    <td><input type="text" placeholder="Middle Name"></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name :<sup>*</sup></label></td>
+                    <td><input type="text" placeholder="Last Name" required></td>
+                </tr>
+                <tr>
+                    <td>Date Of Birth :<sup>*</sup></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender :</label></td>
+                    <td><input type="radio" name="Gender">Male
+                    <input type="radio" name="Gender">Female
+                    <input type="radio" name="Gender">Transgender</td>
+                </tr>
+                <tr>
+                    <td><label>Email :</label></td>
+                    <td><input type="email" name=" email" placeholder="example142@*****"></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile Number :<sup>*</sup></label></td>
+                    <td><input type="number" name="number" placeholder="9876******" required></td>
+                </tr>
+                <tr>
+                    <td><label>Address :</label></td>
+                    <td>
+                        <textarea rows="5" col="17" placeholder="Address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label >City :</label></td>
+                    <td><input type="text" placeholder="Enter City"><sub>(max 20 char a-z and A-Z)</sub></td>
+                </tr>
+                <tr>
+                    <td><label>Pin Code :</label></td>
+                    <td><input type="number"><sub>(6 digit number)</sub></td>
+                </tr>   
+                <tr>
+                    <td><label>State :</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Country :</label></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Hobbies :</label></td>
+                    <td>
+                        <input type="checkbox" name="Hobbies">Drawing
+                        <input type="checkbox" name="Hobbies">Singing
+                        <input type="checkbox" name="Hobbies">Dancing
+                    </td>
+                   <tr>
+                    <td></td>
+                       <td><input type="checkbox" name="Hobbies">Other
+                        <input type="text"></inpt></td>
+                   </tr>
+                </tr>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<table align="center">
+                    <tr>
+                        <td rowspan="6"><label for="">Qualification:</label></td>
+                    </tr>
+                        <tr>
+                                <th>sl.no.</th>
+                                <th>Examination</th>
+                                <th>Board</th>
+                                <th>Percentage</th>
+                                <th>Year Of Pass</th>
+                        </tr>
+                        <tr>
+                                <td>01</td>
+                                <td>Class X</td>
+                                <td><input type="text"></td>
+                                <td><input type="number"></td>
+                                <td><input type="number" min="1990" max="2030"></td>
+                        </tr>
+                        <tr>
+                                <td>02</td>
+                                <td>Class XII</td>
+                                <td><input type="text"></td>
+                                <td><input type="number"></td>
+                                <td><input type="number" min="1990" max="2030"></td>
+                        </tr>
+                        <tr>
+                                <td>03</td>
+                                <td>Graduation</td>
+                                <td><input type="text"></td>
+                                <td><input type="number"></td>
+                                <td><input type="number" min="1990" max="2030"> </td>
+                        </tr>
+                        <tr>
+                                <td>04</td>
+                                <td>Master</td>
+                                <td><input type="text"></td>
+                                <td><input type="number"></td>
+                                <td><input type="number" min="1990" max="2030"></td>
+                        </tr>
+                    </tr>
+                </table>
+         
+                <table align="center">
+                <tr >
+                    <td><label for="">Couress Applied For :</label></td>
+                    <th>
+                        <input type="checkbox" name="couse">B.Tech
+                        <input type="checkbox" name="couse">B.Com
+                        <input type="checkbox" name="couse">B.Sc
+                        <input type="checkbox" name="couse">B.CA
+                    </th>
+                </tr>
+                <tr>
+                    <td><br></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type="Submit" value="submit"> <input type="reset" value="reset"></td>
+                </tr>
+            </table>
+            </form>
+        </tr>
+    </table>
+</body>
+</html>
